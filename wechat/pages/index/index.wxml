@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">辣鸡机器人</text>
+  </view>
+  
+  <view class="usermotto" style="text-align: left">
+    <text align="right">{{info}}</text>
+  </view>
+  <view>
+    <input id="input"style="text-align: right" bindconfirm="setInput"/>
+  </view>
+</view>
